@@ -1,0 +1,286 @@
+html { padding-bottom: 100px; }
+
+body {
+	font-family: arial;
+	overflow-y: scroll;
+	color: #000000;
+	min-width: 320px;
+	/* Responsive Design desktop font size */
+	font-size: 100%;
+}
+
+a:link		{ color: #666666; }
+a:visited 	{ color: #777777; }
+
+
+
+
+.normalFont { font-size: 1em; }
+.smallFont { font-size: 0.75em; }
+.tinyFont {	font-size: 0.6em; }
+
+
+
+
+
+
+
+
+#header {
+	width: 75%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.headerCow {
+	height: 80px;
+	margin-bottom: -10px;
+	margin-right: -10px;
+	margin-left: 15px;
+}
+
+.headerItem {
+	margin-right: 8px;
+	margin-left: 8px;
+}
+
+hr {
+	width: 75%;
+	max-width: 1000px;
+	border: solid black 1px;
+}
+
+.textAlignCenter { text-align: center; }
+
+
+
+
+
+
+
+
+.defaultPageFormat {
+	width: 60%;
+	max-width: 640px;
+	text-align: left;
+	min-width: 280px;
+	margin-top: 30px;
+	display: inline-block;
+}
+
+.downloadPageFormat { margin-top: 20px; }
+
+.musicPageFormat {
+	width: 60%;
+	max-width: 640px;
+	text-align: center;
+	min-width: 280px;
+	display: inline-block;
+}
+
+.gridPageFormat {
+	width: 80%;
+	max-width: 780px;
+	min-width: 280px;
+	display: inline-block;
+}
+
+.sekaijuPageFormat {
+	width: 90%;
+	max-width: 1000px;
+	text-align: center;
+	min-width: 280px;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+.gridItem {
+    display: inline-block;
+	margin-bottom: 38px;
+	width: 251px;				/* Prevents jitter on pageLoad */
+}
+
+.gridItemInvisible { display: inline-block; }
+.gridText {	display: block; }
+
+.gridImage { 
+	margin: 19px 38px 6px 38px; 
+	height: 175px; 				/* Prevents jitter on pageLoad */
+}
+
+.gridImageKongRectangle { 
+	margin: 19px 38px 6px 38px; 
+	width: 171px; 				/* Prevents jitter on pageLoad */
+}
+
+.gridImageInvisible {
+	margin: 19px 38px 6px 38px;
+	width: 175px;
+	opacity: 0;
+}
+
+/* Vertically centers the Rush and Kongregate rectangles. Doesn't look very good */
+/*.gridPushImageUp {
+	position: relative;
+	bottom: 19px;
+	margin-top: 19px;
+}*/
+
+
+
+
+
+
+
+
+.downloadRow {
+	height: 36px;
+	line-height: 36px;
+}
+
+.downloadText {	float: left; }
+
+.downloadBandcamp {
+	float: right;
+	position: relative;
+	top: 50%;
+	margin-top: -13px;
+}
+
+.downloadFree {
+	float: right;
+	margin-right: 11px;
+}
+
+
+
+
+
+
+
+
+.musicPageLeft {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 18px;			/* We're not putting this in the parent div because we'll need both when the pagewidth gets small */
+}
+
+.musicPageRight {
+	display: inline-block;
+	text-align: left;
+	margin: 10px 0 0 4%;
+}
+
+.musicPageAlbumCover {
+	height: 300px;
+	width: 300px;
+	max-width: 300px;
+}
+
+.musicPageAlbumCoverRectangle {	width: 300px; }
+
+.musicPageCenteredPlaylist {
+	text-align: left;
+	display: inline-block;
+	margin-top: 18px;
+}
+
+.bandcampButton {
+	margin-bottom: -7px;
+	width: 130px;
+	height: 27px;
+}
+
+.sekaijuImage {
+	height: 240px;
+	width: 320px;
+}
+
+.audioButton { 
+	float: left;
+	margin: -17px 10px 0 0;
+	top: 50%;
+}
+
+.musicPageRow {
+	height: 46px;
+	line-height: 46px;
+}
+
+.musicPageRowText {
+	display: inline;
+	vertical-align: middle;
+}
+
+.musicPageRowDoubleText {
+	line-height: 16px;
+	width: 250px;
+	position: relative;
+	top: 18%;
+}
+
+.musicPageFooter {
+	margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+/* RESPONSIVE DESIGN STUFF */
+/* Removes the extra spacer on the music playlists after the page becomes one column */
+/* Probably some way to code this where the breakpoint isn't needed.. */
+/* Breakpoint calibrated using the short song titles in trace.php */
+@media screen and (max-width: 730px) {
+	.musicPageRight { margin-left: 0%; }
+}
+
+@media screen and (max-width: 750px) { 
+	.sekaijuImage { margin-bottom: 5px; height: 180px; width: 240px; } 
+}
+
+
+/* Mobile device theme */
+/* 507px is 50% splitscreen on any non-Pro iPad */
+/* We're breaking a bit early to prevent a one-column page in the desktop grid design */
+@media screen and (max-width: 650px) {
+	html { padding-bottom: 50px; }
+	body { margin-left: 0px; margin-right: 0px; }
+	.headerCow { height: 40px; }
+	.headerItem { margin-left: 4px; margin-right: 4px; }
+	hr { width: 90%; }
+	#header { text-align: center; width: 100%; }
+	.defaultPageFormat { width: 80%; }
+	.gridPageFormat { width: 90%; }
+	.gridImage { margin: 6px 13px 6px 13px; width: 80%;	height: auto; max-width: 175px; }
+	.gridImageKongRectangle  { margin: 6px 13px 6px 13px; width: 80%; max-width: 175px; }
+	.gridItem {	width: 49%;	margin-bottom: 24px; }
+	.gridItemInvisible { display: none;	}
+	.musicPageAlbumCover { height: auto; width: 90%; }
+	.musicPageAlbumCoverRectangle {	width: 90%;	}
+	.songButton { margin: 10px 10px 0 0; }
+}
+
+
+/* Extra formatting for long song titles on smol phones */
+/* This forces 320px iphone view on anything in this range */
+/* 375px is the iPhone non-plus */
+@media screen and (max-width: 375px) {
+	.longTitle { 
+		padding-left: 45px;
+		position: relative;
+		top: -5px;
+		margin: -20px 0 -20px 0;
+		display: block;
+	}
+	.musicPageCenteredPlaylist { max-width: 260px; }
+}
