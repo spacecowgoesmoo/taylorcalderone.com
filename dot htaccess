@@ -1,0 +1,26 @@
+RewriteEngine on
+
+RewriteOptions inherit
+AddHandler application/x-httpd-eig-php52 .php
+
+# Initialization stuff
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+
+# Unless directory, remove trailing slash
+RewriteRule ^([^/]+)/$ https://taylorcalderone.com/$1 [R=301,L]
+
+# Redirect external .php requests to extensionless url
+RewriteCond %{THE_REQUEST} ^(.+)\.php([#?][^\ ]*)?\ HTTP/
+RewriteRule ^(.+)\.php$ https://taylorcalderone.com/$1 [R=301,L]
+
+# Resolve .php file for extensionless php urls
+RewriteRule ^([^/.]+)$ $1.php [L]
+
+# Redirect some old file paths to new file paths
+Redirect /portfolio https://www.taylorcalderone.com/frontendPortfolio
+Redirect /MiniTES/game.html https://www.kongregate.com/games/spacecowgoesmoo/minites
+Redirect /MiniTES/launcher.html https://www.kongregate.com/games/spacecowgoesmoo/minites
+Redirect /Pages/trace.html http://www.bovinedragonsoftware.com
