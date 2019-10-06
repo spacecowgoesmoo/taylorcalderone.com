@@ -4,7 +4,7 @@
 
 
 <div class='defaultPageFormat'>
-Hi! My name is Taylor Calderone. I'm a Game Developer and Music Producer. 
+My name is Taylor Calderone and I'm a Game Developer / Music Producer. 
 I was part of <a href='http://www.bovinedragonsoftware.com' target='blank'>Bovinedragon Software</a> 
 during the early iOS era and we created
 <a href ="https://web.archive.org/web/20190211195412/http://www.slidetoplay.com/gomi-review/" target='_blank'>three</a>
