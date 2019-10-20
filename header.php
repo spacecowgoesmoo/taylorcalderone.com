@@ -1,11 +1,12 @@
-<html>
+<html lang="en">
 	<head>
 		<title>Taylor Calderone</title>
 		<meta name="keywords" content="Gomi, Trace, Trace 2, Spacecow, Space, cow, goes, moo, spacecowgoesmoo,
 			Taylor, Calderone, Taylor Calderone, Music, Original, Soundtrack, OST, Composer, Game, iPhone, iPod,
 			Touch, Bovinedragon, Software, Kevin, Kevin Calderone, Pixel, Quartet, Odyssey, Odyssee, Trail, Tears
 			miniTES, mini, TES, Transcend"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="Description" content="Taylor Calderone">
 		<meta charset="utf-8"/>
 		<!-- Favicons -->
 		<link rel="apple-touch-icon" sizes="180x180" href="https://www.taylorcalderone.com/Images/Favicons/apple-touch-icon.png">
