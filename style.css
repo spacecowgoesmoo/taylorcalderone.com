@@ -256,7 +256,7 @@ hr {
 	html { padding-bottom: 50px; }
 	body { margin-left: 0px; margin-right: 0px; }
 	.headerCow { height: 40px; }
-	.headerItem { margin-left: 4px; margin-right: 4px; }
+	.headerItem { margin-left: 3px; margin-right: 3px; }
 	hr { width: 90%; }
 	#header { text-align: center; width: 100%; }
 	.defaultPageFormat { width: 80%; }
