@@ -1,10 +1,7 @@
 <html lang="en">
 	<head>
 		<title>Taylor Calderone</title>
-		<meta name="keywords" content="Gomi, Trace, Trace 2, Spacecow, Space, cow, goes, moo, spacecowgoesmoo,
-			Taylor, Calderone, Taylor Calderone, Music, Original, Soundtrack, OST, Composer, Game, iPhone, iPod,
-			Touch, Bovinedragon, Software, Kevin, Kevin Calderone, Pixel, Quartet, Odyssey, Odyssee, Trail, Tears
-			miniTES, mini, TES, Transcend"/>
+		<meta name="keywords" content="Gomi, Trace, Trace 2, Spacecow, Space, cow, goes, moo, spacecowgoesmoo, Taylor, Calderone, Taylor Calderone, Music, Original, Soundtrack, OST, Composer, Game, iPhone, iPod, Touch, Bovinedragon, Software, Kevin, Kevin Calderone, Pixel, Quartet, Odyssey, Odyssee, Trail, Tears, miniTES, mini, TES, Transcend"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="Description" content="Taylor Calderone">
 		<meta charset="utf-8"/>
@@ -29,9 +26,9 @@
 
 <div id='header'>
 	<a href='https://www.taylorcalderone.com/index'><img class='headerItem headerCow' src="Images/cow.png" alt='Stick figure cow'></a>
-	<a href='https://www.taylorcalderone.com/index' class='headerItem'>Home</a>
 	<a href='https://www.taylorcalderone.com/music' class='headerItem'>Music</a>
-	<a href='https://www.taylorcalderone.com/games' class='headerItem'>Games</a>
+	<a href='https://www.taylorcalderone.com/gamedevPortfolio' target='_blank' class='headerItem'>Games</a>
+	<a href='https://www.taylorcalderone.com/frontendPortfolio' target='_blank' class='headerItem'>Webdev</a>
 	<a href='https://www.taylorcalderone.com/download' class='headerItem'>Download</a>	
 </div>
 
