@@ -25,7 +25,7 @@
 
 
 <div id='header'>
-	<a href='https://www.taylorcalderone.com/index'><img class='headerItem headerCow' src="Images/cow.png" alt='Stick figure cow'></a>
+	<a href='https://www.taylorcalderone.com'><img class='headerItem headerCow' src="Images/cow.png" alt='Stick figure cow'></a>
 	<a href='https://www.taylorcalderone.com/music' class='headerItem'>Music</a>
 	<a href='https://www.taylorcalderone.com/gamedevPortfolio' target='_blank' class='headerItem'>Games</a>
 	<a href='https://www.taylorcalderone.com/frontendPortfolio' target='_blank' class='headerItem'>Webdev</a>
