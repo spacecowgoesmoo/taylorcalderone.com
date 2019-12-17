@@ -26,9 +26,9 @@
 
 
 // Set up button source images
-var playButtonIMG = 'Images/play.png';
-var pauseButtonIMG = 'Images/pause.png';
-var loadingButtonIMG = 'Images/loading.png';
+var playButtonIMG = 'https://www.taylorcalderone.com/Images/play.png';
+var pauseButtonIMG = 'https://www.taylorcalderone.com/Images/pause.png';
+var loadingButtonIMG = 'https://www.taylorcalderone.com/Images/loading.png';
 
 // Sets all button images on the page to 'play'
 function resetAllSongButtons() {
