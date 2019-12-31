@@ -122,10 +122,7 @@
 			<img id='button22' class='audioButton' alt='Play Button' onclick='playAudio("https://www.taylorcalderone.com/audioFiles/Random/Squishy.mp3", this.id);'>
 			<div class='musicPageRowText'>Squishy</div>
 		</div>
-	
 	</div>
-	
-
-
-
 </div>
+
+<?php include('footer.php'); ?>
