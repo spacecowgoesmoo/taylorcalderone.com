@@ -82,3 +82,5 @@
 		This album is a derivative work; I didn't write any of the songs. All music is copyright Lee, Lifeson, and Peart.
 	<div>
 </div>
+
+<?php include('footer.php'); ?>
