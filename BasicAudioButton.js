@@ -1,14 +1,13 @@
-// BasicAudioButton.js 
-// © Taylor Calderone, 2017
-// v1.1
+// BasicAudioButton.js
+// © Taylor Calderone, 2017-2019
+// v1.3
 
 // INSTRUCTIONS
 // 1. Prepare some play/pause/loading button images
-// 2. Set up the image sources in this JS file. Lines 29 - 31
-// 3. Customize the CSS, if desired. Line 46
-// 4. Load the JS file in your HTML: `<script src='BasicAudioButton.js'></script>`
-// 5. Initialize the library: `<body onload="initializeBasicAudioButtonJS();">`
-// 6. Add your AudioButtons to your HTML as follows. (Use absolute filepaths or pausing won't work correctly.)
+// 2. Set up the image sources in this JS file. Lines 28 - 30
+// 3. Customize the CSS, if desired. Line 48
+// 4. Insert the JS file at the bottom of your HTML: <script src='BasicAudioButton.js'></script>
+// 5. Add your AudioButtons to your HTML as follows. (Use absolute filepaths or pausing won't work correctly.)
 
 // HTML USAGE EXAMPLES
 // <img id='button1' class='audioButton' onclick='playAudio("http://www.cow.com/audio1.mp3", this.id);'>
@@ -26,14 +25,17 @@
 
 
 // Set up button source images
-var playButtonIMG = 'https://www.taylorcalderone.com/Images/play.png';
-var pauseButtonIMG = 'https://www.taylorcalderone.com/Images/pause.png';
-var loadingButtonIMG = 'https://www.taylorcalderone.com/Images/loading.png';
+const playButtonIMG = 'https://www.taylorcalderone.com/Images/play.png';
+const pauseButtonIMG = 'https://www.taylorcalderone.com/Images/pause.png';
+const loadingButtonIMG = 'https://www.taylorcalderone.com/Images/loading.png';
+
+// Initialize
+initializeBasicAudioButtonJS();
 
 // Sets all button images on the page to 'play'
 function resetAllSongButtons() {
-	var elements = document.getElementsByClassName('audioButton');
-	for (var i = 0; i < elements.length; i++) {
+	const elements = document.getElementsByClassName('audioButton');
+	for (let i = 0; i < elements.length; i++) {
 	    elements[i].src = playButtonIMG;
 	}
 }
@@ -42,12 +44,12 @@ function initializeBasicAudioButtonJS() {
 	resetAllSongButtons();
 	
 	// Set up the CSS (so that we don't need a separate CSS file)
-	var extraCSS = document.createElement('style');
+	const extraCSS = document.createElement('style');
 	extraCSS.innerHTML = ".audioButton { height:35px; position:relative; } .audioButton:hover { cursor:pointer; }";
 	document.body.appendChild(extraCSS);
 	
 	// Create the invisible audioPlayer
-	var extraAudioTag = document.createElement('audio');
+	const extraAudioTag = document.createElement('audio');
 	extraAudioTag.id = 'audioPlayer';
 	document.body.appendChild(extraAudioTag);
 }
