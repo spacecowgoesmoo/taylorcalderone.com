@@ -43,8 +43,6 @@
 			<div class='musicPageRowText'>Armageddon 2008</div>
 		</div>
 	</div>
-
-
-
-
 </div>
+
+<?php include('footer.php'); ?>
