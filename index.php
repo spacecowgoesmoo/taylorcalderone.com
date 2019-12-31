@@ -13,3 +13,5 @@
 	<br><br>email - spacecowgoesmoo@gmail.com
 	<br>twitter - <a href="https://twitter.com/spacecowgoesmoo" target='_blank' rel="noopener">@spacecowgoesmoo</a>
 </div>
+
+<?php include('footer.php'); ?>
