@@ -3,9 +3,6 @@
 
 
 
-
-
-
 <div class='defaultPageFormat downloadPageFormat'>
 
 	<div class='downloadRow'>
@@ -73,3 +70,5 @@
 		<span class='downloadFree'><a href="/audioFiles/Zips/Classical%20Music.zip">Free Download</a></span>
 	</div>
 </div>
+
+<?php include('footer.php'); ?>
