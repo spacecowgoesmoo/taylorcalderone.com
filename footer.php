@@ -1,5 +1,2 @@
-				</tr>
-			</table>
-		</div>
-		<br><br><br><br>
-	</body>
+<script src='BasicAudioButton.js'></script>
+</body></html>
