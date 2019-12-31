@@ -3,10 +3,6 @@
 
 
 
-
-
-
-
 <div class='gridPageFormat'>
 
 
@@ -97,3 +93,6 @@
 	<div class="gridItemInvisible">
 		<img class='gridImageInvisible' src="">
 	</div>
+</div>
+
+<?php include('footer.php'); ?>
