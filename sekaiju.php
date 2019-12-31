@@ -69,3 +69,5 @@
 	<br>
 	<div class='tinyFont'>All images are from Google and are copyrighted by their respective owners.</div>
 </div>
+
+<?php include('footer.php'); ?>
