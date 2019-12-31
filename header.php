@@ -17,9 +17,8 @@
 		<meta name="theme-color" content="#ffffff">
 		<!-- External Files -->
 		<link rel="stylesheet" href="style.css">
-		<script src='BasicAudioButton.js'></script>
 	</head>
-<body onload="initializeBasicAudioButtonJS();">
+<body>
 
 
 
