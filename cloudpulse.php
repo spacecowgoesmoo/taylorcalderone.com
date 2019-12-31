@@ -62,3 +62,5 @@
 		<a href="https://spacecowgoesmoo.bandcamp.com/album/cloudpulse" target="_blank" rel='noopener'><img class='bandcampButton' alt='Bandcamp' src="Images/bandcamp2017.png"></a>
 	</div>
 </div>
+
+<?php include('footer.php'); ?>
