@@ -20,6 +20,7 @@ RewriteRule ^(.+)\.php$ https://taylorcalderone.com/$1 [R=301,L]
 RewriteRule ^([^/.]+)$ $1.php [L]
 
 # Redirect some old file paths to new file paths
+Redirect /games https://www.taylorcalderone.com/gamedevPortfolio
 Redirect /portfolio https://www.taylorcalderone.com/frontendPortfolio
 Redirect /MiniTES/game.html https://www.kongregate.com/games/spacecowgoesmoo/minites
 Redirect /MiniTES/launcher.html https://www.kongregate.com/games/spacecowgoesmoo/minites
