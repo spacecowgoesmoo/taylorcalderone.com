@@ -23,3 +23,10 @@ RewriteRule ^([^/.]+)$ $1.php [L]
 Redirect /games https://www.taylorcalderone.com/gamedevPortfolio
 Redirect /portfolio https://www.taylorcalderone.com/webdevPortfolio
 Redirect /Pages/trace.html http://www.bovinedragonsoftware.com
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php80” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php80 .php .php8 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
