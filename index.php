@@ -10,8 +10,9 @@
 
 	<p>I'm also experienced in HTML5 game development and web / digital audio. My background here includes two more online games with 138,000 and 29,000 plays, and I co-managed the IT web development team during my time working at a highly-ranked STEM college.</p>
 
-	<br><br>email - spacecowgoesmoo@gmail.com
-	<br>twitter - <a href="https://twitter.com/spacecowgoesmoo" target='_blank' rel="noopener">@spacecowgoesmoo</a>
+
+	<br><br>email - tcalderone85@gmail.com
+	<br>resume - <a href='https://www.taylorcalderone.com/Filehosting/Resume-Taylor-Calderone.pdf' target='_blank'>click here</a>
 </div>
 
 <?php include('footer.php'); ?>
