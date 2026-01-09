@@ -4,7 +4,7 @@
 
 
 <div class='defaultPageFormat'>
-	I'm a Full Stack Developer / Game Developer / Music Producer in the Los Angeles area. Most recently I worked at Microsoft in the group that maintains <a href='https://zone.msn.com/en-us/home' target='_blank' rel='noopener'>zone.msn.com</a>.
+	I'm a Full Stack Developer / Game Developer / Music Producer. Most recently I worked at Microsoft in the group that maintains <a href='https://zone.msn.com/en-us/home' target='_blank' rel='noopener'>zone.msn.com</a>.
 
 	<p>Previously, I worked at <a href='https://pop.in/' target='_blank' rel='noopener'>Pop.in</a> and helped create a new internal game platform for 2021’s app relaunch. Our team developed six online multiplayer games with videos livestreamed from players. I've also created two HTML5 games with 146,000 and 43,000 plays, and I co-managed the IT web development team during my time working at a highly-ranked STEM college.</p>
 
